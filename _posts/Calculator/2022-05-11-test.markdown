@@ -46,7 +46,7 @@ You’ll find this post in your `_posts` directory. Go ahead and edit it and re-
   </tr>
 </table>
 
-<script type="text/javascript" src="_posts/Calculator/script.js"></script>
+<script type="text/javascript" src="mangojuice2618.github.io/_posts/Calculator/script.js"></script>
 </body>
  
 </html>
