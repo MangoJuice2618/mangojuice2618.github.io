@@ -43,7 +43,7 @@ title:  "Sample Calculator"
   </tr>
 </table>
 
-<script type="text/javascript" src="/_posts/Calculator/script.js"></script>
+<script type="text/javascript" src="_posts/Calculator/script.js"></script>
 </body>
  
 </html>
