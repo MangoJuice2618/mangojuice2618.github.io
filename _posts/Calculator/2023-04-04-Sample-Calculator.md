@@ -1,17 +1,10 @@
 ---
 layout: post
-title:  "html"
-date:   2023-05-11 11:01:11 +0800
-categories: jekyll update
+title:  "Sample Calculator"
 ---
-test
 
-<head>
-  <meta charset="utf-8">
-  <title>Simple Calculator using HTML, CSS and JavaScript</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
- 
+<html lang="en" dir="ltr">
+
 <body>
  
 <table class="calculator" >
@@ -49,9 +42,8 @@ test
     <td> <input type="button" value="*" onclick="display('*')" /> </td>
   </tr>
 </table>
- 
+
 <script type="text/javascript" src="script.js"></script>
- 
 </body>
  
 </html>
