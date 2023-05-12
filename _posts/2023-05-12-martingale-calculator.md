@@ -11,12 +11,12 @@ date:   2023-05-12 11:11:11 +0800
 <body>
   <input type="text" id="deposit">
   <button onclick="calculate()">Calculate</button>
-  <div id="result1"></div>
-  <div id="result2"></div>
-  <div id="result3"></div>
-  <div id="result4"></div>
-  <div id="result5"></div>
-  <div id="result6"></div>
+  <div id="roundedNumber1"></div>
+  <div id="roundedNumber2"></div>
+  <div id="roundedNumber3"></div>
+  <div id="roundedNumber4"></div>
+  <div id="roundedNumber5"></div>
+  <div id="roundedNumber6"></div>
 </body>
 <script>
 function calculate() {
@@ -33,12 +33,12 @@ function calculate() {
   const roundedNumber4 = result4.toFixed(2);
   const roundedNumber5 = result5.toFixed(2);
   const roundedNumber6 = result6.toFixed(2);
-  document.getElementById("roundedNumber1").innerHTML = result1;
-  document.getElementById("roundedNumber2").innerHTML = result2;
-  document.getElementById("roundedNumber3").innerHTML = result3;
-  document.getElementById("roundedNumber4").innerHTML = result4;
-  document.getElementById("roundedNumber5").innerHTML = result5;
-  document.getElementById("roundedNumber6").innerHTML = result6;
+  document.getElementById("roundedNumber1").innerHTML = roundedNumber1;
+  document.getElementById("roundedNumber2").innerHTML = roundedNumber2;
+  document.getElementById("roundedNumber3").innerHTML = roundedNumber3;
+  document.getElementById("roundedNumber4").innerHTML = roundedNumber4;
+  document.getElementById("roundedNumber5").innerHTML = roundedNumber5;
+  document.getElementById("roundedNumber6").innerHTML = roundedNumber6;
 }
 </script>
 </html>
