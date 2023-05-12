@@ -6,7 +6,7 @@ title:  "Sample Calculator"
 <html lang="en" dir="ltr">
 
 <body>
- 
+
 <table class="calculator" >
   <tr>
     <td colspan="3"> <input class="display-box" type="text" id="result" disabled /> </td>
