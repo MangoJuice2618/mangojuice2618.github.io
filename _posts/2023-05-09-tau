@@ -1,8 +1,6 @@
 ---
 layout: post
 title:  "Welcome!"
-date:   2023-05-11 11:01:11 +0800
-categories: jekyll update
 ---
 
 <html>  
@@ -166,23 +164,4 @@ value="m+" onclick='c(".....................Anoop")'>
         </div>    
 </div>   
 </body>  
-<script>  
-function c(val)    
-{    
-document.getElementById("d").value=val;    
-}    
-function v(val)    
-{document.getElementById("d").value+=val;    
-}    
-function e()    
-{    
-try    
-    {    
-     c(eval(document.getElementById("d").value))    
-    }    
-    catch(e)    
-    {    
-     c('Error') }    
-}  
-</script>  
 </html>  
